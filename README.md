@@ -24,4 +24,4 @@ Na main do programa, N será o primeiro número a ser lido e indica o número de
 Para controlar o sistema, precisei criar 4 variáveis: i = número de eventos processados até aquele momento, Estado = Estado da escada, podendo ser parado, esquerda ou direita, t = tempo atual iniciando em 0, e previsão_parada = tempo previsto para que a escada entre no estado de parada. Enquanto não processamos todos os eventos, ou seja, i < N, pegamos o primeiro elemento de cada fila, e = Tempo de chegada do primeiro elemento da fila da esquerda, D = Tempo de chegada do primeiro elemento da fila da direita. Logo, criei condicionais para resolver nosso problema, sendo elas: se estamos no tempo previsto para a escada parar, temos que checar realmente se ela vai parar. No caso, se os 2 elementos primeiro das filas não têm que entrar na fila agora, o estado da escada então é parada. Caso a escada esteja parada, temos que ver as 3 situações possíveis para essa escada, ou seja, ela pode ir para a esquerda, ir para a direita ou continuar parada. Na condicional, adicionei tempo atual + 10, como solicitado no enunciado.
 
 # Contribuidores
-- Pablo Borba Leal
+- Pablo Borba Leal, Tia: 42145333

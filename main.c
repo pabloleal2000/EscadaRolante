@@ -1,4 +1,4 @@
-//Pablo Borba Leal, Tia:42145333.
+//Pablo Borba Leal, Tia:42145333
 #include <stdio.h>
 
 #define N 10000
